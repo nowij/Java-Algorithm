@@ -8,7 +8,7 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); //출력
 
         int number = Integer.parseInt(br.readLine());
-        String answer = String.valueOf(recursive(number));
+        String answer = String.valueOf(factorial(number));
 
         bw.write(answer); 
 
@@ -16,9 +16,9 @@ public class Main {
         bw.close();
     }
 
-    public static int recursive(int num) {
+    public static int factorial(int num) {
         if(num == 1 || num == 0)
             return 1;
-        return num * recursive(num-1);
+        return num * factorial(num-1);
     }
 }
