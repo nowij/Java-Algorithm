@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Main {
+class No10870 {
     public static int count;
     public static final int[] CHANGES = {25, 10, 5, 1};
     public static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

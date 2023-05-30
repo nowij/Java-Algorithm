@@ -2,7 +2,7 @@ package baekjoon.recursion;
 
 import java.io.*;
 
-public class Main {
+class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //입력
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); //출력
