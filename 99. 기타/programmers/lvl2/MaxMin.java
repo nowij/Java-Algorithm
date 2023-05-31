@@ -1,9 +1,9 @@
-package programmers;
+package programmers.lvl2;
 
 import java.io.IOException;
 import java.util.*;
 
-public class Lvl2MaxMin {
+public class MaxMin {
     /**
      * 프로그래머스 : 최댓값과 최솟값
      * https://school.programmers.co.kr/learn/courses/30/lessons/12939
