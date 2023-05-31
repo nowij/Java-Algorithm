@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.util.*;
 
 public class Lvl2MaxMin {
+    /**
+     * 프로그래머스 : 최댓값과 최솟값
+     * https://school.programmers.co.kr/learn/courses/30/lessons/12939
+     * */
     public static void main(String[] args) throws IOException {
         System.out.println(solution("-1 -2 -3 -4"));
     }

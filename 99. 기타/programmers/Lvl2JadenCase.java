@@ -3,6 +3,10 @@ package programmers;
 import java.io.IOException;
 
 public class Lvl2JadenCase {
+    /**
+     * 프로그래머스 : JadenCase 문자열 만들기
+     * https://school.programmers.co.kr/learn/courses/30/lessons/12951
+     * */
     public static void main(String[] args) throws IOException {
         System.out.println(Solution("for the last week "));
 
