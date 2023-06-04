@@ -10,15 +10,18 @@ public class CorrectBracket {
      *
      * */
     public static void main(String[] args) throws IOException {
-        System.out.println();
+        System.out.println(solution("())(()"));
     }
 
     public static boolean solution(String s) {
-        boolean answer = true;
+        int count = 0;
 
-        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-        System.out.println("Hello Java");
+        for (int i=0; i<s.length(); i++) {
+            if (count == 0 && s.charAt(i) == ')') return false;
+            else if (s.charAt(i) == '(') count++;
+            else count--;
+        }
 
-        return answer;
+        return count == 0;
     }
 }
