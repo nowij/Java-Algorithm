@@ -10,7 +10,7 @@ public class NumberExpress {
      *
      * */
     public static void main(String[] args) throws IOException {
-        System.out.println(solution(15));
+        System.out.println("ssass".replaceFirst("ss", ""));
     }
 
     public static int solution(int n) {
